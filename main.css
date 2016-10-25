@@ -6,24 +6,39 @@ head{
 }
 
 header{
-  background-color: rgba(148,188,99,1);
   height: 75px;
 }
 .headline{
 float:left;
+clear: both;
+margin: 0 auto;
+text-align: center;
 }
 
 body{
-
+  background-color: rgba(208,235,255,.5);
 }
 
 nav{
-
+  clear:both;
 }
-
+img{
+  margin:auto 0;
+}
+a{
+  color:black;
+}
 li{
   display:inline;
-  float:left;
+  float:none;
   padding: 10px;
   margin: 0 auto;
+  background-color: rgba(178,151,110,.5);
+}
+
+#wrapper, img{
+  width:100%;
+  height:auto;
+  border-radius: 40px;
+
 }
