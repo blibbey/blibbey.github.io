@@ -5,10 +5,25 @@ head{
 
 }
 
+header{
+  background-color: rgba(148,188,99,1);
+  height: 75px;
+}
+.headline{
+float:left;
+}
+
 body{
 
 }
 
 nav{
+
+}
+
+li{
   display:inline;
+  float:left;
+  padding: 10px;
+  margin: 0 auto;
 }
